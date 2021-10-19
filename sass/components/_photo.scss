@@ -1,0 +1,9 @@
+.photo {
+  border-radius: 50%;
+  width: 192px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 1200px) {
+    width: 320px;
+  }
+}

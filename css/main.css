@@ -196,7 +196,7 @@ a {
 }
 
 .details {
-  padding: 60px 20px;
+  padding: 60px 20px 160px;
   background-color: #a79795;
   display: flex;
   flex-direction: column;

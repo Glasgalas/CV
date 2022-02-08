@@ -136,6 +136,10 @@ summary {
   display: list-item;
 }
 
+p {
+  margin: 0;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -192,7 +196,7 @@ a {
 }
 
 .details {
-  padding: 30px;
+  padding: 50px;
   background-color: #a79795;
   text-align: left;
 }
@@ -254,6 +258,20 @@ a {
 
 .listItem {
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  margin-left: -23px;
+}
+
+.projectItem {
+  display: flex;
+  align-items: center;
 }
 
 .langList {
@@ -266,7 +284,7 @@ a {
 
 .langItem::after {
   position: absolute;
-  margin-top: 5px;
+  margin-top: 25px;
   content: '';
   display: block;
   width: 60%;
@@ -287,7 +305,7 @@ a {
 }
 
 .info {
-  padding: 30px;
+  padding: 50px;
 }
 
 @media screen and (max-width: 767px) {

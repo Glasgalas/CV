@@ -24,4 +24,16 @@
 
 .listItem {
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  margin-left: -23px;
+}
+.projectItem {
+  display: flex;
+  align-items: center;
 }
